@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-    implementation("com.github.kyuubiran:EzXHelper:1.0.3")
+    implementation("com.github.kyuubiran:EzXHelper:2.2.1")
 	implementation("org.luckypray:dexkit:2.0.6")
     compileOnly("de.robv.android.xposed:api:82")
     implementation("dev.rikka.hidden:compat:4.4.0")
