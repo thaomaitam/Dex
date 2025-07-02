@@ -7,10 +7,10 @@ plugins {
 android {
     compileSdk = 35
 
-    namespace = "com.KTA.Dex"
+    namespace = "com.example.dexmodule"
 
     defaultConfig {
-        applicationId = "com.KTA.Dex"
+        applicationId = "com.example.dexmodule"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

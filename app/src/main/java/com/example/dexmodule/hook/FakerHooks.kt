@@ -1,7 +1,7 @@
-package com.KTA.Dex.hook
+package com.example.dexmodule.hook
 import com.github.kyuubiran.ezxhelper.utils.findMethod
 import com.github.kyuubiran.ezxhelper.utils.hookBefore
-import com.KTA.Dex.ObfuscationResolver
+import com.example.dexmodule.ObfuscationResolver
 
 fun applyAllHooks(classLoader: ClassLoader) {
     // Lấy kết quả từ bộ phân giải

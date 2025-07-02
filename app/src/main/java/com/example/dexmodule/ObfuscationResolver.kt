@@ -1,4 +1,4 @@
-package com.KTA.Dex
+package com.example.dexmodule
 import android.content.pm.ApplicationInfo
 import org.luckypray.dexkit.DexKitBridge
 
