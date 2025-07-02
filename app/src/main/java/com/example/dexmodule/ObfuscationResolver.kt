@@ -1,4 +1,4 @@
-package com.KTA.Dex
+package com.example.dexmodule
 import android.content.pm.ApplicationInfo
 import org.luckypray.dexkit.DexKitBridge
 
@@ -27,7 +27,7 @@ object ObfuscationResolver {
             val getImeiResult = bridge.findMethod {
                 searchPackages("android.telephony")
                 matcher {
-                    className = "android.telephony.TelephonyManager"
+                    declaredClass("android.telephony.TelephonyManager")
                     name = "getImei" // Giả sử chúng ta biết tên không bị làm rối, hoặc dùng các đặc điểm khác
                     returnType = "java.lang.String"
                     paramCount = 0
@@ -41,7 +41,7 @@ object ObfuscationResolver {
             // --- Tìm hàm SystemProperties.get ---
             val getSystemPropResult = bridge.findMethod {
                 matcher {
-                    className = "android.os.SystemProperties"
+                    declaredClass("android.os.SystemProperties")
                     name = "get"
                     returnType = "java.lang.String"
                     paramTypes("java.lang.String") // Tìm phiên bản 1 tham số

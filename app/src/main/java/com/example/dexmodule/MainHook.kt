@@ -1,7 +1,8 @@
-package com.KTA.Dex
+package com.example.dexmodule
+
 import com.github.kyuubiran.ezxhelper.init.EzXHelperInit
-import com.KTA.Dex.ObfuscationResolver
-import com.KTA.Dex.hooks.FakerHooks
+import com.example.dexmodule.ObfuscationResolver
+import com.example.dexmodule.hook.applyAllHooks
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.callbacks.XC_LoadPackage
 
