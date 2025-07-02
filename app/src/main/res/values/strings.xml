@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">QSlock</string>
+    <string name="app_name">DexModule</string>
     <string name="xposed_desc">Module hỗ trợ ẩn và khoá nhanh Quick Settings</string>
 </resources>
